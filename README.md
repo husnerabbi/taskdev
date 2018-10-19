@@ -26,3 +26,6 @@ and hit Enter.
 
 ## Test App:
 Now you can access application * Url: http://localhost:9000
+
+* Reult will be.
+`Server responded with success !! `
