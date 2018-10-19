@@ -6,6 +6,7 @@ NodeJS simple web server application.
 Prerequisites:
 
 * Docker Engine (you have already install Docker)
+* git
 * Create password file in root directory full path is /root/.dockpasswd, OR you can create password file anywhere 
 and edit below line in script.sh file. 
 
