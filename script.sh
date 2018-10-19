@@ -17,9 +17,8 @@ docker tag $ID $IMAGE:${VER}
 docker tag $ID $IMAGE:latest
 
 ## B.   Push the image to docker hub (create account on docker hub).
-## You have already account on docker hub and login through bash terminal.
-## if don't want to login before the script use the below just commnet out and file the
-## required filed.
+## You have already account on docker hub.
+## replace username in username filed and password store in seprate file.
 
 #####----------------------------Docket Login Section------------------#####
 
@@ -37,4 +36,4 @@ docker push $IMAGE
 docker run -d --name=nodeapplication -p 9000:8083 husnerabbi/nodeapp
 
 # Jobs a Completed
-echo -e "\eJobs a Done---Now you can access application localhost:9000 \e"
+echo -e "\e--Jobs Completed---Now you can access application localhost:9000 \e"
