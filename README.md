@@ -20,7 +20,7 @@ Clone below mentioned repository on your Docker host, cd into taskdev directory.
 git clone https://github.com/husnerabbi/taskdev.git
 cd taskdev
 chmod u+x script.sh 
-type script.sh in bash 
+type ./script.sh in bash 
 and hit Enter.
 ```
 
